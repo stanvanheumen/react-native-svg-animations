@@ -57,7 +57,7 @@ class AnimatedSvgPaths extends Component {
         toValue: 0,
         duration: duration,
       })
-    ]).start(() => this.animate());
+    ]).start();
   }
 
   componentDidMount() {
